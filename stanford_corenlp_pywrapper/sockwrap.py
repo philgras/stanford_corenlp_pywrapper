@@ -349,4 +349,4 @@ if __name__=='__main__':
     if sys.argv[1]=='modes_json':
         # import json as stdjson
         # print stdjson.dumps(MODES, indent=4)
-        print '"%s"' % json.dumps(MODES).replace('"', r'\"')
+        print( '"%s"' % json.dumps(MODES).replace('"', r'\"'))
